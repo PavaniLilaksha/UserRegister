@@ -1,0 +1,147 @@
+@CHARSET "ISO-8859-1";
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	background-image: url(Pics/Logo1.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.main-nav{
+	float: right;
+	list-style: none;
+	margin-top: 30px:
+}
+
+.main-nav li{
+	display: inline-block;
+}
+
+.main-nav li a{
+	color: white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+}
+
+.main-nav li.active{
+	border: 1px solid white;
+}
+
+.main-nav li a:hover{
+	border: 1px solid white;
+}
+
+body{
+	background-image: url(Pics/Logo1.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+}
+
+.row{
+	max-width: 1200px;
+	margin: auto:
+}
+
+.login{
+	width: 420px;
+	height: 420px;
+	baclground: rgba(0,5,0,5);
+	color: white;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-15%,-50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+.login #lin{
+	margin: 50px;
+}
+.lin{
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	position: absolute;
+	top: 50%
+	left: calc(50% - 50%);
+}
+
+h1{
+	margin: 0;
+	padding: 10px 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+
+.login{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+.login input{
+	width: 50%;
+	margin-bottom: 10px;
+}
+
+.login input[type="text"], input[type="password"]{
+	border: none;
+	border-bottom: 1px solid white;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: white;
+	font-size: 16px;
+}
+
+.login input[type="submit"]{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: blue;
+	color: white;
+	font-size: 18px;
+	border-radius: 20px;
+}
+
+.login input[type="submit"]:hover{
+	cursor: pointer;
+	background: orange;
+	color: red;
+}
+
+::placeholder{
+ color: indigo;	
+}
+
+
+.login a{
+	text-decoration: none;
+	font-size: 14px;
+	color: white;
+}
+
+.login a:hover{
+	color: orange;
+}
+
+.login #lin{
+	margin-top: -10px;
+	margin-bottom: 10px;
+}
+.login #log{
+	margin-left: -250px;
+}
+.login #form{
+	margin-top: 50px;
+}

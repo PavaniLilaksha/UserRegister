@@ -1,0 +1,15 @@
+@CHARSET "ISO-8859-1";
+
+.main{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 1420px;
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100em;
+    background-color: white;
+    box-shadow: 5px 5px gray;
+    border: 1px solid gray;
+}

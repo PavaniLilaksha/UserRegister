@@ -1,0 +1,40 @@
+CREATE SCHEMA `hotel1` ;
+
+
+CREATE TABLE `hotel`.`register_customer` (
+  `fname` VARCHAR(20) NOT NULL,
+  
+					`lname` VARCHAR(20) NOT NULL,
+  
+					`MNum` VARCHAR(10) NOT NULL,
+ 
+					 `email` VARCHAR(45) NOT NULL,
+  
+					`pass` VARCHAR(45) NOT NULL,
+  
+					`pass2` VARCHAR(45) NOT NULL,
+  
+					`gender` VARCHAR(45) NOT NULL,
+  
+					PRIMARY KEY (`email`));
+
+
+
+CREATE TABLE `hotel1`.`admin` (
+  `admincol` VARCHAR(45) NULL,
+  
+				`fname` VARCHAR(20) NOT NULL,
+  
+				`lname` VARCHAR(20) NOT NULL,
+  
+				`MNum` VARCHAR(45) NOT NULL,
+  
+				`email` VARCHAR(45) NOT NULL,
+  
+				`pass` VARCHAR(45) NOT NULL,
+  
+				`pass2` VARCHAR(45) NOT NULL,
+  
+				`admincol1` VARCHAR(45) NOT NULL,
+  
+				PRIMARY KEY (`email`));
